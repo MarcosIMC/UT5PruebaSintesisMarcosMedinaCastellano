@@ -11,8 +11,17 @@ package ut5pruebasintesismarcosmedinacastellano;
  * @author Marcos
  */
 public class Calculadora {
+    /**
+     * Aquí irá el primer número
+     */
     private int operador1;
+    /**
+     * Aquí irá el segundo número
+     */
     private int operador2;
+    /**
+     * Aquí irá el tipo de operación quieres realizar
+     */
     private String operacion;
 
     /**
