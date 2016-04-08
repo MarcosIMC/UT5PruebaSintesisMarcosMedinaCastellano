@@ -15,6 +15,7 @@ public class Calculadora {
      * Aquí irá el primer número
      */
     private int operador1;
+
     /**
      * Aquí irá el segundo número
      */
@@ -23,6 +24,10 @@ public class Calculadora {
      * Aquí irá el tipo de operación quieres realizar
      */
     private String operacion;
+
+    private int oper2;
+    private String operador;
+
 
     /**
      * @return the operador1
@@ -39,30 +44,30 @@ public class Calculadora {
     }
 
     /**
-     * @return the operador2
+     * @return the oper2
      */
-    public int getOperador2() {
-        return operador2;
+    public int getOper2() {
+        return oper2;
     }
 
     /**
-     * @param operador2 the operador2 to set
+     * @param oper2 the oper2 to set
      */
-    public void setOperador2(int operador2) {
-        this.operador2 = operador2;
+    public void setOper2(int oper2) {
+        this.oper2 = oper2;
     }
 
     /**
-     * @return the operacion
+     * @return the operador
      */
-    public String getOperacion() {
-        return operacion;
+    public String getOperador() {
+        return operador;
     }
 
     /**
-     * @param operacion the operacion to set
+     * @param operador the operador to set
      */
-    public void setOperacion(String operacion) {
-        this.operacion = operacion;
+    public void setOperador(String operador) {
+        this.operador = operador;
     }
 }
