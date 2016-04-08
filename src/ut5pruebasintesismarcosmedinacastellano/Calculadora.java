@@ -13,7 +13,7 @@ package ut5pruebasintesismarcosmedinacastellano;
 public class Calculadora {
     private int operador1;
     private int operador2;
-    private String operacion;
+    private String operador;
 
     /**
      * @return the operador1
@@ -44,16 +44,16 @@ public class Calculadora {
     }
 
     /**
-     * @return the operacion
+     * @return the operador
      */
-    public String getOperacion() {
-        return operacion;
+    public String getOperador() {
+        return operador;
     }
 
     /**
-     * @param operacion the operacion to set
+     * @param operador the operador to set
      */
-    public void setOperacion(String operacion) {
-        this.operacion = operacion;
+    public void setOperador(String operador) {
+        this.operador = operador;
     }
 }
